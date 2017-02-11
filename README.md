@@ -10,7 +10,7 @@ Clone this repository and use `npm start` in your terminal to make it start
 
 You are tasked to add an input field to your Container component.
 
-the input field should be on top of it, receive a value and pass it as a `circles` props (from the previous exercise) to the `Container` component.
+The input field should be on top of it, receive a value and pass it as a `circles` props (from the previous exercise) to the `Container` component.
 
 Does it change the number of circles when you input a new value?
 
