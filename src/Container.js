@@ -21,7 +21,9 @@ class Container extends Component {
         const numberOfCircles = Array.from({length: this.state.numberOfCircles}, (x, i) => <Circle key={`circle-${i}`} />)
         return (
             <div>
-                <input type="text" onChange={this.handleInputChange.bind(this)} value={this.state.numberOfCircles || ''}/>
+                <div>
+                    <input type="text" onChange={this.handleInputChange.bind(this)} value={this.state.numberOfCircles || ''}/>
+                </div>
                 <div className="container">
                     {numberOfCircles}
                 </div>
